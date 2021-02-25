@@ -13,6 +13,7 @@ prefix = "%"
 load_str = prefix + "load "
 claim_str = prefix + "claim "
 unclaim_str = prefix + "unclaim "
+test = 0
 
 @client.event
 async def on_message(message):
